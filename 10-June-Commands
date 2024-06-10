@@ -3,3 +3,4 @@ sudo snap install firefox
 or 
 
 sudo apt install firefox
+sudo apt-get install docker.io -y
