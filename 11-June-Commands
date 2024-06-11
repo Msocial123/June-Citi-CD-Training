@@ -1,0 +1,18 @@
+Project Repository :
+
+https://github.com/Msocial123/DevOps-WebSite
+
+docker build -t devops-web:1.0 .
+   80  docker images
+   81  docker run -td --name web-app -p 80:80 devops-web:1.0
+   82  docker ps
+   83  docker port web-app
+   84  docker exec -it web-app /bin/bash
+   85  cd ..
+   86  git remote -v
+   87  cd DevOps-WebSite
+   88  git remote -v
+   89  git pull origin master
+   90  clear
+   91  docker build -t devops-web:2.0 .
+   92  docker run -td --name Web-DevOps -p 81:80 devops-web:2.0
