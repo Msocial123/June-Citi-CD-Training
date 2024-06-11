@@ -17,6 +17,20 @@ docker build -t devops-web:1.0 .
    91  docker build -t devops-web:2.0 .
    92  docker run -td --name Web-DevOps -p 81:80 devops-web:2.0
 
+   ######################################################################3
+
+   96  docker login
+   97  clear
+   98  docker images
+   99  docker tag devops-web:2.0 muralisocial123/devops-web:2.0
+  100  docker images
+  101  docker push  muralisocial123/devops-web:2.0
+
+  ############################################################################
+
+
    Pulling the docker image :
 
    docker pull muralisocial123/devops-web:2.0
+
+
