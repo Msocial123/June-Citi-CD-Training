@@ -24,3 +24,7 @@ curl https://raw.githubusercontent.com/Msocial123/k8-install-eks/master/eks-clie
 
 ##################################################################
 
+Step4 : Create a Cluster :
+
+eksctl create cluster --name eks-cluster --version 1.28 -- region ap-south-1 --nodegroup-name test-linux --node-type t2.medium --nodes 2
+
