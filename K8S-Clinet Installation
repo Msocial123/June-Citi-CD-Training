@@ -32,3 +32,8 @@ Step5: To Connect Cluster :
 
 aws eks update-kubeconfig --name eks-cluster --region ap-south-1
 
+
+Kubernetes Reference Document :
+
+https://pwittrock.github.io/docs/api-reference/v1.7/
+
