@@ -1,7 +1,26 @@
 To Install AWS CLI :
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+apt-get install unzip -y
 unzip awscliv2.zip
 sudo ./aws/install
 
+To Check Verion :
+
+aws --version
+
 #################################################################
+
+Step2 : Crate an IAM User Account with Admin Access 
+
+Login with IAM User from AWS CLI 
+
+aws configure - Provide Access Key ID, Secret ID 
+
+#####################################################################
+Step3 : Install the Components - EKSCTL ,KUBECTL , AWS CLI 
+
+curl https://raw.githubusercontent.com/Msocial123/k8-install-eks/master/eks-client.sh | sudo bash
+
+##################################################################
+
